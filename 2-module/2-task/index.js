@@ -1,6 +1,6 @@
 function isEmpty(obj) {
 
-  if( Object.keys(obj) == 0 ) {
+  if( Object.keys(obj).length == 0 ) {
     return true
   }
   return false
